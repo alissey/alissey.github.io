@@ -1,6 +1,6 @@
 ---
 title: "Управление версиями с помощью Git"
-date: 2024-09-01  
+date: 2025-09-01  
 categories: [Blog, Programming]
 tags: [git, version control, github]
 ---

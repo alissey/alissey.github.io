@@ -1,6 +1,6 @@
 ---
 title: "LaTeX для научных работ"
-date: 2024-09-08
+date: 2025-09-08
 categories: [Blog, Programming]
 ---
 
