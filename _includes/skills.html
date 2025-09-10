@@ -1,0 +1,11 @@
+{% if site.data.skills %}
+<h2>Навыки</h2>
+{% for skill in site.data.skills %}
+  <h3>{{ skill.category }}</h3>
+  <ul>
+    {% for item in skill.items %}
+      <li>{{ item.name }} ({{ item.level }})</li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+{% endif %}

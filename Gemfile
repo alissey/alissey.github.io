@@ -1,13 +1,14 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-redirect-from'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
-end
+# Используйте гем github-pages, который включает все необходимые плагины
+gem "github-pages", group: :jekyll_plugins
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+# Добавьте эти гемы для совместимости с Ruby 3.4.0+
+gem "logger"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "forwardable"
+
+# Для Windows
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

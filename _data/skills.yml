@@ -1,0 +1,39 @@
+- category: "Программирование"
+  items:
+    - name: "Python"
+      level: "Продвинутый"
+    - name: "SQL"
+      level: "Средний"
+    - name: "HTML/CSS"
+      level: "Средний"
+    - name: "JavaScript"
+      level: "Начальный"
+
+- category: "Data Science"
+  items:
+    - name: "Pandas"
+      level: "Продвинутый"
+    - name: "NumPy"
+      level: "Средний"
+    - name: "Matplotlib"
+      level: "Средний"
+    - name: "Scikit-learn"
+      level: "Начальный"
+
+- category: "Инструменты"
+  items:
+    - name: "Git"
+      level: "Средний"
+    - name: "Jupyter Notebook"
+      level: "Продвинутый"
+    - name: "VS Code"
+      level: "Средний"
+
+- category: "Языки"
+  items:
+    - name: "Русский"
+      level: "Родной"
+    - name: "Английский"
+      level: "B2 (Средне-продвинутый)"
+    - name: "Немецкий"
+      level: "A2 (Начальный)"
